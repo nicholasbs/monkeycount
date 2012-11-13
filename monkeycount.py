@@ -6,7 +6,8 @@ ms_export = MailSnake(settings.API_KEY, api='export')
 
 def get_stats(campaigns):
     """
-    Takes a list of campaigns and returns a stats dict whose keys are emails and whose values are dicts (with activity counts keyed to campaign times)
+    Takes a list of campaigns and returns a stats dict whose keys are emails
+    and whose values are dicts (with activity counts keyed to campaign times)
     """
     emails = []
     stats = {}
