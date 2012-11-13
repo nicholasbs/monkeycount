@@ -13,7 +13,7 @@ number of campaigns you want stats for). Then run:
 
 ##License
 
-Copyright (c) 2011, Nicholas Bergson-Shilcock.
+Copyright (c) 2012, Nicholas Bergson-Shilcock.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
