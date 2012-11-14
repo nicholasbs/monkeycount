@@ -11,6 +11,16 @@ number of campaigns you want stats for). Then run:
 
     $ python monkeycount.py > stats.csv
 
+This will create a CSV file named `stats.csv` with data of the form:
+
+    email,11/3/2012 23:51:52,10/27/2012 16:54:01
+    nick@example.com,2,0
+    kim@example.com,0,0
+    dave@example.com,1,1
+
+Rows list the activity count (clicks + opens) for each email address for
+each campaign. In the above example, `nick@example.com` opened (or clicked) the campaign for 11/3 twice and had no activity for the 10/27 campaign.
+
 ## Requirements
 
 [MailSnake](https://github.com/michaelhelmick/python-mailsnake)
