@@ -1,4 +1,4 @@
-#About
+#MonkeyCount
 
 **MonkeyCount** is a simple script for exporting MailChimp subscriber activity
 as a CSV file.
@@ -10,6 +10,10 @@ from name of the campaigns you want stats for) and `MAX_CAMPAIGNS` (the maximum
 number of campaigns you want stats for). Then run:
 
     $ python monkeycount.py > stats.csv
+
+## Requirements
+
+[MailSnake](https://github.com/michaelhelmick/python-mailsnake)
 
 ##License
 
